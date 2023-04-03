@@ -18,11 +18,11 @@
 ####
 > docker build -t case-study:1.0.0 .
 ####
-##### Click the link [http://localhost:5431](http://localhost:5431) 
-* Choose **PostgreSQL** as System.
-* Username = **postgres**
-* Password = **12345**
-* Login and create a database named **peoplist**
+>##### Click the link [http://localhost:5431](http://localhost:5431) 
+>* Choose **PostgreSQL** as System.
+>* Username = **postgres**
+>* Password = **12345**
+>* Login and create a database named **peoplist**
 ####
 > sudo docker run --net=host -p 8080:8080 case-study:1.0.0
 ####
