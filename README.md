@@ -31,5 +31,5 @@
 
 #### [Github Frontend Repo](https://github.com/rsmciftci/peoplist-frontend)
 
-### Thank you very much
+### Thank you very much!
 
