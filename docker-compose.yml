@@ -1,0 +1,23 @@
+version: '3.1'
+
+services:
+
+  db:
+    image: postgres
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: 12345
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 5431:8080
+
+  peoplist-frontend:
+    image: case-study:1.0.0
+    restart: always
+    ports:
+      - 3000:3000
