@@ -17,7 +17,7 @@ services:
       - 5431:8080
 
   peoplist-frontend:
-    image: case-study:1.0.0
+    image: peoplist-frontend:1.0.0
     restart: always
     ports:
       - 3000:3000
